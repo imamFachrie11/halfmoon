@@ -1,0 +1,54 @@
+
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: top;
+    gap: 2rem;
+ 
+}
+.product-card{
+    background-color: rgba(255, 255, 255, 0.8);
+    overflow: hidden;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+    transition: 0.2s ease-in-out;
+
+}
+
+/* hover animation */
+.product-card:hover{
+    box-shadow: 0 0 15px 10px black;
+    transform: scale(105%);
+}
+/* hover animation end */
+
+.product-card h2{
+    margin: 1rem 0;
+    font-weight: 600;
+    
+}
+
+.croper{
+    width: 18rem;
+    height: 15rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.croper img{
+    width: 25rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#marketplace{
+    left: -3rem;
+}
+
+#paymen{
+    top: -11rem;
+    left: -2rem;
+}

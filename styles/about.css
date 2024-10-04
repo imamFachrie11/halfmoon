@@ -1,0 +1,70 @@
+/* hero section */
+
+.about-hero h1{
+    z-index: 2;
+    font-size: 4rem;
+    font-weight: 400;
+   
+}
+
+/* hero section end */
+
+/* about section */
+.about-company{
+    padding: 2rem;
+    text-align: center;
+}
+
+.about-company h2{
+    font-size: 2rem;
+}
+.about-company p{
+    font-size: 1.4rem;
+}
+
+.company-card{
+    margin-bottom: 3rem;
+}
+
+.company-flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: top;
+    gap: 4rem;
+}
+
+.vision-card{
+    text-align: center;
+}
+
+.vision-card p{
+    width: 33rem;
+}
+
+.mission-card ul{
+    text-align: left;
+}
+
+.mission-card li{
+    list-style-type: disc;
+}
+/* about section end */
+
+/* video section */
+.about-video{
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.about-video h2{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.about-video video{
+    width: 40rem;
+    border-radius: 10px;
+    
+}
+/* video section end */

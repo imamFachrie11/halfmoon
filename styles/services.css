@@ -1,0 +1,80 @@
+
+
+/* .services-img{
+    width: 20rem;
+    height: 15rem;
+    background: url(../assets/services-img/web-development.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+.services-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: top;
+    gap: 2rem;
+ 
+}
+.services-card{
+    background-color: rgba(255, 255, 255, 0.8);
+    overflow: hidden;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+    transition: 0.2s ease-in-out;
+
+}
+
+/* hover animation */
+.services-card:hover{
+    box-shadow: 0 0 15px 10px black;
+    transform: scale(105%);
+}
+/* hover animation end */
+
+.services-card h2{
+    margin: 1rem 0;
+    font-weight: 600;
+    
+}
+
+.croper{
+    width: 18rem;
+    height: 15rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.croper img{
+    width: 25rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#web-developer{
+    top: -10rem;
+    left: -4rem;
+}
+
+#cyber-security{
+    left: -4rem;
+}
+
+#uiux{
+    top: -1rem;
+    left: -1.5rem;
+}
+
+#maintenance{
+    top: -2rem;
+}
+
+#digital-marketing{
+    top: -4rem;
+    left: -3.7rem;
+}
+
+#seo{
+    left: -3.8rem;
+}
